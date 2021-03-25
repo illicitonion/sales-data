@@ -10,6 +10,11 @@ const sales = {
 };
 
 exports.handler = async (event, context) => {
+  return {
+    statusCode: 503,
+    value: "OH NO",
+  };
+
   let value = sales;
   const code = event.queryStringParameters.code;
   if (code) {
