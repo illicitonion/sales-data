@@ -12,9 +12,9 @@ const sales = {
 exports.handler = async (event, context) => {
   let value = sales;
   const code = event.queryStringParameters.code;
-  if (req.query.code) {
-    if (sales.hasOwnProperty(req.query.code)) {
-      value = {[req.query.code]: sales[req.query.code]};
+  if (code) {
+    if (sales.hasOwnProperty(code)) {
+      value = {[code]: sales[code]};
     } else {
       return {
         statusCode: 404,
