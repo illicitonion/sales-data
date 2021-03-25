@@ -1,3 +1,8 @@
 [build]
   publish = "static"
   functions = "functions"
+
+[[redirects]]
+  from = "/sales"
+  to = "/.netlify/functions/sales"
+  status = 200
