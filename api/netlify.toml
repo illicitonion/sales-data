@@ -7,8 +7,4 @@
   from = "/sales"
   to = "/.netlify/functions/sales"
   status = 200
-
-[[headers]]
-  for = "/.netlify/functions/sales"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
+  headers = {Access-Control-Allow-Origin = "*"}
