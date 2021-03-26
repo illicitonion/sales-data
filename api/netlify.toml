@@ -10,6 +10,6 @@
   headers = {Access-Control-Allow-Origin = "*"}
 
 [[headers]]
-  for = "/.netlify/functions/sale"
+  for = "/.netlify/functions/sales"
   [headers.values]
     Access-Control-Allow-Origin = "*"
