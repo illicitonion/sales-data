@@ -8,3 +8,8 @@
   to = "/.netlify/functions/sales"
   status = 200
   headers = {Access-Control-Allow-Origin = "*"}
+
+[[headers]]
+  for = "/.netlify/functions/sale"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
