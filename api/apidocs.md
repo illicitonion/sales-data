@@ -5,6 +5,7 @@ TODO: Host this somewhere and link to it.
 GET /sales
 
 Parameters:
+
 | Name            | Description                                                                              |
 |-----------------|------------------------------------------------------------------------------------------|
 | code (optional) | The code of the product to look up sales for. If omitted, all products will be returned. |
