@@ -9,6 +9,6 @@
   status = 200
 
 [[headers]]
-  for = "/*"
+  for = "/sales"
   [headers.values]
     Access-Control-Allow-Origin = "*"
