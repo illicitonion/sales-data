@@ -1,8 +1,6 @@
 # Supermarket API
 
-TODO: Host this somewhere and link to it.
-
-GET /sales
+## `GET /sales`
 
 Parameters:
 
@@ -14,11 +12,11 @@ Returns information related to sales currently on.
 
 Data will be in JSON format.
 
-Example request:
+### Example request:
 
 `GET /sales`
 
-Response:
+#### Response:
 
 ```
 {
@@ -33,11 +31,11 @@ Response:
 }
 ```
 
-Example request with code paramter:
+### Example request with code paramter:
 
 `GET /sales?code=C01`
 
-Response:
+#### Response:
 
 ```
 {
@@ -47,5 +45,7 @@ Response:
   }
 }
 ```
+
+## Errors
 
 The API will return an error with a status code 429 if more than one request is made per second.
