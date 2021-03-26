@@ -15,6 +15,7 @@
     Access-Control-Allow-Headers = "Content-Type"
     Access-Control-Allow-Methods = "GET"
 
+[[headers]]
   for = "/sales"
   [headers.values]
     Access-Control-Allow-Origin = "*"
