@@ -2,5 +2,11 @@
   "name": "shopping-api",
   "version": "1.0.0",
   "description": "API for JS3 shopping assessment",
-  "author": ""
+  "scripts": {
+    "build": "mkdir -p static && markdown apidocs.md > static/index.html"
+  },
+  "author": "",
+  "dependencies": {
+    "markdown-to-html": "0.0.13"
+  }
 }
