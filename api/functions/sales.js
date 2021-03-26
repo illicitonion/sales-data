@@ -1,11 +1,19 @@
 const sales = {
-  C01: {
-    originalPrice: 5,
-    salePrice: 2.5,
-  },
   A15: {
     originalPrice: 0.2,
     salePrice: 0.15,
+  },
+  C01: {
+    originalPrice: 5,
+    salePrice: 4.5,
+  },
+  P01: {
+    originalPrice: 4,
+    salePrice: 0.5,
+  },
+  P02: {
+    originalPrice: 0.6,
+    salePrice: 0.5,
   },
 };
 
