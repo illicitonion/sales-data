@@ -7,9 +7,15 @@
   from = "/sales"
   to = "/.netlify/functions/sales"
   status = 200
-  headers = {Access-Control-Allow-Origin = "*"}
+  headers = {
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Headers = "Content-Type"
+    Access-Control-Allow-Methods = "GET"
+  }
 
 [[headers]]
   for = "/.netlify/functions/sales"
   [headers.values]
     Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Headers = "Content-Type"
+    Access-Control-Allow-Methods = "GET"
